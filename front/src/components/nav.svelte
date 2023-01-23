@@ -32,7 +32,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 999;
+    z-index: 9999;
     height: 70px;
     box-shadow: 0px 0.01em 0.4em black;
 }
@@ -94,7 +94,7 @@ nav {
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
-    transition: transform 100ms ease-in-out;
+    transition: transform 50ms ease-in-out 0ms;
     /* display: none; */
 }
 
@@ -114,7 +114,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     opacity: 0;
-    transition: opacity 50ms ease-in-out;
+    transition: opacity 50ms ease-in-out 0ms;
 }
 
 .nav-toggle:checked ~ nav {
